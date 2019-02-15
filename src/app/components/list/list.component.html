@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor="let contact of contacts$ | async">
+    {{ contact.firstName }} {{ contact.lastName }}
+    <button (click)="delete(contact.id)">Delete</button>
+  </li>
+</ul>

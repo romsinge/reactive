@@ -1,0 +1,28 @@
+<h1>Créer contact</h1>
+
+<form (submit)="handleSubmit()">
+
+  <label>
+    Prénom
+    <input type="text" name="firstName" [(ngModel)]="contact.firstName" />
+  </label>
+
+  <br/>
+  
+  <label>
+      Nom
+      <input type="text" name="lastName" [(ngModel)]="contact.lastName" />
+    </label>
+  
+    <br/>
+    
+  <label>
+      Adresse mail
+      <input type="text" name="email" [(ngModel)]="contact.email" />
+    </label>
+  
+    <br/>
+
+    <button type="submit">Créer</button>
+
+</form>

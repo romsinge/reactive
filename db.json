@@ -1,0 +1,22 @@
+{
+  "contacts": [
+    {
+      "id": "0",
+      "firstName": "Romain",
+      "lastName": "Signes",
+      "email": "romain.signes@gmail.com"
+    },
+    {
+      "firstName": "Michel",
+      "lastName": "Dupont",
+      "email": "m.d@gmail.com",
+      "id": "MbJo4DF"
+    },
+    {
+      "firstName": "Michel",
+      "lastName": "Dupont",
+      "email": "m.d@gmail.com",
+      "id": "_sGY_1O"
+    }
+  ]
+}
